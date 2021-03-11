@@ -6,11 +6,11 @@ require 'pundit/resources/version'
 Gem::Specification.new do |spec|
   spec.name          = "pundit-resources"
   spec.version       = Pundit::Resources::VERSION
-  spec.authors       = ["Ross Penman", "Sean Devine"]
-  spec.email         = ["ross@pen.mn", "barelyknown@icloud.com"]
+  spec.authors       = ["FlatWorld Technology"]
+  spec.email         = ["technology@flatworld.com"]
 
   spec.summary       = %q{Integrate JSONAPI::Resources with Pundit}
-  spec.homepage      = "https://github.com/togglepro/pundit-resources"
+  spec.homepage      = "https://github.com/flatworld/pundit-resources"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
